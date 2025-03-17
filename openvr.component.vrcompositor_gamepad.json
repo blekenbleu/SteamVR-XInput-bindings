@@ -125,6 +125,70 @@
                },
                "mode" : "button",
                "path" : "/user/gamepad/input/x"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/enter"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/leftclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/rightclick"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/gamepad/input/joystick_right"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/trackpadtouch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/shoulder_left"
+            },
+            {
+               "inputs" : {},
+               "mode" : "button",
+               "path" : "/user/gamepad/input/shoulder_right"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/home"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/start"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/lasermouse/in/back"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/gamepad/input/back"
+            },
+            {
+               "inputs" : {},
+               "mode" : "button",
+               "path" : "/user/gamepad/input/guide"
             }
          ]
       },
@@ -151,6 +215,11 @@
                },
                "mode" : "scroll",
                "path" : "/user/gamepad/input/joystick_right"
+            },
+            {
+               "inputs" : {},
+               "mode" : "none",
+               "path" : "/user/gamepad/input/a"
             }
          ]
       },
@@ -164,6 +233,11 @@
                },
                "mode" : "scroll",
                "path" : "/user/gamepad/input/joystick_right"
+            },
+            {
+               "inputs" : {},
+               "mode" : "button",
+               "path" : "/user/gamepad/input/a"
             }
          ]
       },
@@ -196,20 +270,11 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/system/in/toggleroomview"
-                  }
-               },
-               "mode" : "button",
-               "path" : "/user/gamepad/input/dpad_down"
-            },
-            {
-               "inputs" : {
-                  "click" : {
                      "output" : "/actions/system/in/systembuttonchord"
                   }
                },
                "mode" : "button",
-               "path" : "/user/gamepad/input/dpad_up"
+               "path" : "/user/gamepad/input/a"
             },
             {
                "inputs" : {
@@ -218,25 +283,21 @@
                   }
                },
                "mode" : "button",
-               "path" : "/user/gamepad/input/dpad_left"
+               "path" : "/user/gamepad/input/guide"
             },
             {
-               "inputs" : {
-                  "click" : {
-                     "output" : "/actions/system/in/systembuttonchord"
-                  }
-               },
+               "inputs" : {},
                "mode" : "button",
-               "path" : "/user/gamepad/input/dpad_right"
+               "path" : "/user/gamepad/input/b"
             }
          ]
       }
    },
    "category" : "steamvr_input",
    "controller_type" : "gamepad",
-   "description" : "Try to use Dpad in Dashboard",
+   "description" : "added Guide=Toggle Dashboard, B=go back and A=System Action, enabled all",
    "interaction_profile" : "",
-   "name" : "Dpad VR Dashboard configuration for Gamepad",
+   "name" : "Saved VR Dashboard configuration for Gamepad",
    "options" : {
       "returnBindingsWithHead" : true
    },
